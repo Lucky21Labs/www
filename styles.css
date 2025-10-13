@@ -1,0 +1,29 @@
+body {
+    background-color:slategray;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 4em;
+}
+
+div.main-container {
+    display:flex;
+    width:100vw;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-text {
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
