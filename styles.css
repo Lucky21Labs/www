@@ -22,7 +22,7 @@ main {
         margin:2em;
         max-width:70%;
         flex-grow:1;
-        align-items: center;
+        align-items: flex-start;
         flex-direction: column;
         justify-content: center;
         color: transparent;
