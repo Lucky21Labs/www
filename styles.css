@@ -27,15 +27,12 @@ main {
         justify-content: center;
         color: transparent;
         /* crisper, harder-edged diagonal bands */
-        background-image: repeating-linear-gradient(45deg,
-            white 0%,    white 12.5%,
-            red   12.5%, red   25%,
-            white 25%,   white 37.5%,
-            red   37.5%, red   50%,
-            white 50%,   white 62.5%,
-            red   62.5%, red   75%,
-            white 75%,   white 87.5%,
-            red   87.5%, red   100%
+        background-image: repeating-linear-gradient(90deg,
+            white 0%,    
+            red   25%, 
+            white 50%,   
+            red   75%,
+            white 100%
         );
         background-size: 200%;
         background-position: 0 50%;
