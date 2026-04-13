@@ -5,78 +5,67 @@ const supportMailto = `mailto:${company.supportEmail}`;
 export const pages = [
   {
     outputPath: "index.html",
-    title: "Lucky21Labs | Web and Mobile Product Studio",
+    title: "Lucky21Labs | Web and Mobile Development",
     description:
       "Lucky21Labs builds practical web and mobile applications, including togu and an upcoming AI companion experience.",
     navKey: "home",
     heroClass: "hero-home",
     content: `
       <section class="hero-shell">
-        <p class="eyebrow">Web and mobile products, built with care</p>
-        <h1>Lucky21Labs creates focused software that feels useful on day one.</h1>
+        <h1>Focused software for everyday work.</h1>
         <p class="hero-copy">
-          We design and ship modern applications for everyday workflows, creative utility, and AI-assisted experiences.
-          Our work is centered on clear interfaces, dependable performance, and products that earn a place in your routine.
+          Lucky21 Labs builds web and mobile products that solve common tasks with less friction.
         </p>
         <div class="hero-actions">
-          <a class="button button-primary" href="./togu/">Explore togu</a>
-          <a class="button button-secondary" href="./support/">Contact Support</a>
+          <a class="button button-primary" href="./togu/">View products</a>
+          <a class="button button-secondary" href="./support/">Contact support</a>
         </div>
         <div class="hero-metrics">
           <article>
-            <span class="metric-label">What we build</span>
-            <strong>Web apps, mobile apps, and product experiences</strong>
+            <span class="metric-label">Focus</span>
+            <strong>Web and mobile product development</strong>
           </article>
           <article>
-            <span class="metric-label">Current release</span>
+            <span class="metric-label">Live product</span>
             <strong>togu | Image Resizer</strong>
           </article>
           <article>
-            <span class="metric-label">In development</span>
-            <strong>AI companion product coming soon</strong>
+            <span class="metric-label">In progress</span>
+            <strong>AI companion experience</strong>
           </article>
         </div>
       </section>
 
       <section class="section-grid">
         <article class="panel panel-feature">
-          <p class="eyebrow">About the company</p>
-          <h2>Small team mindset. Product-level attention.</h2>
+          <h2>About Lucky21 Labs</h2>
           <p>
-            Lucky21Labs is built around a simple idea: software should be approachable, fast, and obviously helpful.
-            We care about the details that make a product feel trustworthy, from first-run clarity to long-term maintainability.
+            We are a small product studio focused on practical software, clean interfaces, and stable releases.
           </p>
         </article>
         <article class="panel panel-feature">
-          <p class="eyebrow">How we work</p>
-          <h2>Practical features over unnecessary complexity.</h2>
+          <h2>How we work</h2>
           <p>
-            We focus on sharp scope, thoughtful UX, and stable releases. That means solving real user problems with clean,
-            modern interfaces instead of shipping noise for its own sake.
+            We keep scope tight, prioritize usability, and ship features that improve the product immediately.
           </p>
         </article>
       </section>
 
       <section class="section-stack">
         <div class="section-heading">
-          <p class="eyebrow">Products</p>
-          <h2>What Lucky21Labs is building right now</h2>
+          <h2>Products</h2>
         </div>
         <div class="product-grid">
           <article class="product-card">
             <span class="pill">Available now</span>
             <h3>togu suite</h3>
-            <p>
-              A growing suite of focused image manipulation apps built to keep common editing tasks fast, simple, and approachable. No
-            </p>
+            <p>Focused image tools for fast, routine editing tasks.</p>
             <a class="text-link" href="./togu/">See product details</a>
           </article>
           <article class="product-card">
             <span class="pill pill-muted">Coming soon</span>
             <h3>AI companion experience</h3>
-            <p>
-              An upcoming conversational product designed to make AI interaction feel more personal, grounded, and genuinely useful.
-            </p>
+            <p>A conversational product in active development.</p>
             <a class="text-link" href="./companion/">Preview what’s coming</a>
           </article>
         </div>
@@ -92,11 +81,9 @@ export const pages = [
     heroClass: "hero-product",
     content: `
       <section class="hero-shell">
-        <p class="eyebrow">Lucky21Labs suite</p>
-        <h1>togu is a focused suite of image manipulation apps.</h1>
+        <h1>togu is a focused image tool suite.</h1>
         <p class="hero-copy">
-          togu brings together practical image tools designed for quick, repeatable tasks. Instead of one oversized editor,
-          the suite is built as a set of purpose-driven apps that help people get in, make the change they need, and move on.
+          Each app solves one common image task without the overhead of a large editor.
         </p>
         <div class="hero-actions">
           <a class="button button-primary" href="./image-resizer/">View Image Resizer</a>
@@ -106,48 +93,42 @@ export const pages = [
 
       <section class="detail-grid">
         <article class="panel">
-          <p class="eyebrow">Why the suite exists</p>
-          <h2>Purpose-built tools for common image tasks.</h2>
+          <h2>Why togu</h2>
           <p>
-            togu is for the moments when a full creative application feels like too much. The suite focuses on the kinds of
-            image adjustments people make all the time, with products shaped around clarity, speed, and minimal friction. 
-            The togu suite of apps are built to have no tracking, no need for servers, no subscriptions, no ads, and no BS.
+            togu is built for routine image work where speed and clarity matter.
           </p>
         </article>
         <article class="panel">
-          <p class="eyebrow">Suite direction</p>
-          <h2>Small, useful apps that are easy to return to.</h2>
+          <h2>Principles</h2>
           <ul class="feature-list">
             <li>Focused workflows instead of a crowded all-in-one interface</li>
-            <li>Everyday image tasks like resizing, preparing, and exporting</li>
-            <li>Tools designed to feel lightweight without feeling disposable</li>
-            <li>Lightweight apps that don't sacrifice your privacy or security</li>
+            <li>Tools designed for common tasks like resizing and preparing assets</li>
             <li>No ads, no tracking, no servers, and no subscriptions</li>
+            <li>Clean interfaces that stay fast and easy to use</li>
           </ul>
         </article>
       </section>
 
       <section class="section-stack">
         <div class="section-heading">
-          <p class="eyebrow">Products in the suite</p>
-          <h2>Current and future togu apps.</h2>
+          <h2>Current and planned apps</h2>
         </div>
         <div class="product-grid">
           <article class="product-card">
             <span class="pill">Available now</span>
             <h3>togu | Image Resizer</h3>
-            <p>A streamlined resizing app for preparing images for upload, sharing, listings, forms, and mobile-friendly use.</p>
+            <p>Resize images quickly for uploads, listings, forms, and sharing.</p>
             <a class="text-link" href="./image-resizer/">Open the product page</a>
           </article>
           <article class="product-card">
             <span class="pill pill-muted">Suite approach</span>
             <h3>Designed for everyday utility</h3>
-            <p>Each togu app is meant to solve a specific image problem with less overhead, less confusion, and faster completion.</p>
+            <p>Each app is built to solve one task clearly and quickly.</p>
           </article>
           <article class="product-card">
             <span class="pill pill-muted">Growing suite</span>
             <h3>Room for more focused tools</h3>
-            <p>The suite structure gives Lucky21Labs a clean place to add future image manipulation products as they are released.</p>
+            <p>New tools can be added over time without losing simplicity.</p>
           </article>
         </div>
       </section>
@@ -162,12 +143,9 @@ export const pages = [
     heroClass: "hero-product",
     content: `
       <section class="hero-shell">
-        <p class="eyebrow">togu product</p>
-        <h1>togu | Image Resizer: No ads, no tracking, no servers, no subscriptions. Just you and your images.</h1>
+        <h1>togu | Image Resizer</h1>
         <p class="hero-copy">
-          Image Resizer is the first app in the togu suite. It is built for people who need a dependable way to prepare
-          images for upload, sharing, submissions, listings, and day-to-day web or mobile workflows.
-
+          Resize images quickly for the web, forms, listings, and daily sharing.
         </p>
         <div class="hero-actions">
           <a class="button button-primary" href="../../support/">Get support</a>
@@ -177,42 +155,37 @@ export const pages = [
 
       <section class="detail-grid">
         <article class="panel">
-          <p class="eyebrow">Why it exists</p>
-          <h2>Resize without opening a full creative suite.</h2>
+          <h2>Why it exists</h2>
           <p>
-            Image Resizer is for the moments when you just need the image to be the right size, look correct, and be ready to send.
-            It removes the overhead of heavyweight editing tools for simple, repeatable tasks. The togu suite of apps are built to have
-            no tracking, no need for servers, no subscriptions, no ads, and no BS.
+            Image Resizer covers the essentials: set dimensions, tune quality, and export.
           </p>
         </article>
         <article class="panel">
-          <p class="eyebrow">Best for</p>
-          <h2>Fast preparation for real-world workflows.</h2>
+          <h2>Best for</h2>
           <ul class="feature-list">
             <li>Preparing images for forms, uploads, and app submissions</li>
             <li>Creating web-friendly versions of larger originals</li>
-            <li>Reducing friction in routine image handling tasks</li>
+            <li>Handling recurring resize tasks with less friction</li>
           </ul>
         </article>
       </section>
 
       <section class="section-stack">
         <div class="section-heading">
-          <p class="eyebrow">Product approach</p>
-          <h2>Built to feel lightweight, not limited.</h2>
+          <h2>Product approach</h2>
         </div>
         <div class="product-grid">
           <article class="product-card">
             <h3>Focused workflow</h3>
-            <p>Image Resizer concentrates on the resize-and-export path so common tasks stay quick and understandable.</p>
+            <p>Built around a fast resize-and-export flow.</p>
           </article>
           <article class="product-card">
             <h3>Clean experience</h3>
-            <p>The product is designed to reduce guesswork and keep the path from input to output straightforward.</p>
+            <p>A simple interface keeps each step clear.</p>
           </article>
           <article class="product-card">
-            <h3>Ready for iteration</h3>
-            <p>This page gives you a clear public-facing product presence now, while leaving room to refine feature copy later.</p>
+            <h3>Privacy-first model</h3>
+            <p>No ads, no tracking, no servers, and no subscriptions.</p>
           </article>
         </div>
       </section>
@@ -227,11 +200,9 @@ export const pages = [
     heroClass: "hero-companion",
     content: `
       <section class="hero-shell">
-        <p class="eyebrow">Coming soon from Lucky21Labs</p>
-        <h1>An AI companion product is on the way.</h1>
+        <h1>AI companion, coming soon.</h1>
         <p class="hero-copy">
-          We’re developing a new conversational experience built around presence, usefulness, and a more human-feeling interaction model.
-          The product name and launch details are still in progress, but the direction is clear: thoughtful AI that feels easier to return to.
+          We are building a conversational product focused on practical help and a calm, consistent experience.
         </p>
         <div class="hero-actions">
           <a class="button button-primary" href="../support/">Ask about the roadmap</a>
@@ -241,28 +212,23 @@ export const pages = [
 
       <section class="detail-grid">
         <article class="panel">
-          <p class="eyebrow">What we’re exploring</p>
-          <h2>A calmer, more supportive way to interact with AI.</h2>
+          <h2>What we are building</h2>
           <p>
-            The upcoming experience is being shaped around continuity, trust, and utility. We want it to feel capable without becoming cold,
-            and personal without becoming distracting.
+            The goal is simple: useful responses, steady context, and low-friction interaction.
           </p>
         </article>
         <article class="panel">
-          <p class="eyebrow">Status</p>
-          <h2>Early-stage product, active development.</h2>
+          <h2>Status</h2>
           <p>
-            Branding, launch messaging, and feature details are still taking shape. This page is here to establish a public product presence
-            while we continue refining the experience.
+            Early-stage product in active development. Name, launch timing, and details are still in progress.
           </p>
         </article>
       </section>
 
       <section class="panel panel-callout">
-        <p class="eyebrow">Stay in touch</p>
-        <h2>If you’re curious about the product, we’d love to hear from you.</h2>
+        <h2>Stay in touch</h2>
         <p>
-          Questions, partnership conversations, and early interest can be sent to
+          Questions, partnership inquiries, and early interest can be sent to
           <a href="${supportMailto}">${company.supportEmail}</a>.
         </p>
       </section>
@@ -277,11 +243,9 @@ export const pages = [
     heroClass: "hero-support",
     content: `
       <section class="hero-shell">
-        <p class="eyebrow">Support</p>
-        <h1>We keep support simple and direct.</h1>
+        <h1>Simple, direct support.</h1>
         <p class="hero-copy">
-          For product questions, account issues, app-store related contact details, or general support inquiries,
-          reach out and we’ll respond as quickly as we can.
+          For product questions or general inquiries, email us and we will respond as quickly as possible.
         </p>
         <div class="hero-actions">
           <a class="button button-primary" href="${supportMailto}">Email support</a>
@@ -291,22 +255,18 @@ export const pages = [
 
       <section class="detail-grid">
         <article class="panel">
-          <p class="eyebrow">Contact</p>
           <h2>Support email</h2>
           <p><a href="${supportMailto}">${company.supportEmail}</a></p>
-          <p class="small-text">Use this address for support across current and upcoming Lucky21Labs products.</p>
+          <p class="small-text">Use this address for support across current and upcoming Lucky21 Labs products.</p>
         </article>
         <article class="panel">
-          <p class="eyebrow">Company</p>
           <h2>Lucky21Labs</h2>
           <p>${company.location}</p>
-          <p class="small-text">This page is suitable for product listings that require a company website and contact destination.</p>
         </article>
       </section>
 
       <section class="panel">
-        <p class="eyebrow">Need help with a product?</p>
-        <h2>Include a few details so we can help faster.</h2>
+        <h2>Include a few details</h2>
         <ul class="feature-list">
           <li>The product name and a short description of the issue</li>
           <li>Your device or platform, if relevant</li>
@@ -315,8 +275,7 @@ export const pages = [
       </section>
 
       <section class="panel">
-        <p class="eyebrow">Legal documents</p>
-        <h2>Public links for app store listings and in-app menus.</h2>
+        <h2>Legal documents</h2>
         <p class="small-text">
           These pages are available as permanent public routes for product compliance and support use.
         </p>

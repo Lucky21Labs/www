@@ -41,8 +41,8 @@ export function renderPage(page) {
       <a class="brand" href="${depth || "./"}">
         <img src="${depth}images/lucky21labs.svg" alt="Lucky21Labs logo" class="brand-mark">
         <div class="brand-copy">
-          <span class="brand-name">Lucky21Labs</span>
-          <span class="brand-tag">Modern web and mobile products</span>
+          <span class="brand-name">Lucky21 Labs</span>
+          <span class="brand-tag">Product studio</span>
         </div>
       </a>
       <nav class="site-nav" aria-label="Primary">
@@ -56,8 +56,8 @@ export function renderPage(page) {
 
     <footer class="site-footer">
       <div>
-        <span class="footer-title">Lucky21Labs</span>
-        <p>Focused software for web, mobile, and emerging AI experiences.</p>
+        <span class="footer-title">Lucky21 Labs</span>
+        <p>Focused software for web, mobile, and AI.</p>
       </div>
       <div>
         <span class="footer-title">Products</span>
@@ -79,7 +79,6 @@ export function renderPage(page) {
 
     <div class="site-legal">
       <span>&copy; ${company.year} ${company.name}</span>
-      <span>Built as a static site for fast, dependable delivery.</span>
     </div>
   </div>
 </body>
