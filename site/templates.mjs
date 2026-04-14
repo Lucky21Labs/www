@@ -9,7 +9,7 @@ function renderNav(activeKey, depth) {
   return navigation
     .map(
       (item) => {
-        const normalizedHref = item.href === "/" ? depth || "./" : `${depth}${item.href.replace(/^\//, "")}`;
+        const normalizedHref = `${depth}${item.href.replace(/^\//, "")}`;
 
         return `
         <a class="nav-link${item.key === activeKey ? " is-active" : ""}" href="${normalizedHref}">${item.label}</a>
@@ -38,7 +38,7 @@ export function renderPage(page) {
   <div class="site-bg"></div>
   <div class="site-shell">
     <header class="site-header">
-      <a class="brand" href="${depth || "./"}">
+      <a class="brand" href="${depth}index.html">
         <img src="${depth}images/lucky21labs.svg" alt="Lucky21Labs logo" class="brand-mark">
         <div class="brand-copy">
           <span class="brand-name">Lucky21 Labs</span>
@@ -61,14 +61,14 @@ export function renderPage(page) {
       </div>
       <div>
         <span class="footer-title">Products</span>
-        <a href="${depth}togu/">togu suite overview</a>
-        <a href="${depth}togu/image-resizer/">togu | Image Resizer</a>
-        <a href="${depth}companion/">AI companion coming soon</a>
+        <a href="${depth}togu/index.html">togu suite overview</a>
+        <a href="${depth}togu/image-resizer/index.html">togu | Image Resizer</a>
+        <a href="${depth}companion/index.html">AI companion coming soon</a>
       </div>
       <div>
         <span class="footer-title">Legal</span>
-        <a href="${depth}legal/privacy/">Privacy Policy</a>
-        <a href="${depth}legal/terms/">Terms &amp; Conditions</a>
+        <a href="${depth}legal/privacy/index.html">Privacy Policy</a>
+        <a href="${depth}legal/terms/index.html">Terms &amp; Conditions</a>
       </div>
       <div>
         <span class="footer-title">Support</span>

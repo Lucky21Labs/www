@@ -35,7 +35,10 @@ function getContentType(filePath) {
 }
 
 function safeJoin(base, requestPath) {
-  const normalized = path.posix.normalize(requestPath).replace(/^(\.\.(\/|\\|$))+/, "");
+  const normalized = path.posix
+    .normalize(requestPath)
+    .replace(/^\/+/, "")
+    .replace(/^(\.\.(\/|\\|$))+/, "");
   return path.join(base, normalized);
 }
 

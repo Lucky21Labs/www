@@ -17,8 +17,8 @@ export const pages = [
           Lucky21 Labs builds web and mobile products that solve common tasks with less friction.
         </p>
         <div class="hero-actions">
-          <a class="button button-primary" href="./togu/">View products</a>
-          <a class="button button-secondary" href="./support/">Contact support</a>
+          <a class="button button-primary" href="./togu/index.html">View products</a>
+          <a class="button button-secondary" href="./support/index.html">Contact support</a>
         </div>
         <div class="hero-metrics">
           <article>
@@ -60,13 +60,13 @@ export const pages = [
             <span class="pill">Available now</span>
             <h3>togu suite</h3>
             <p>Focused image tools for fast, routine editing tasks.</p>
-            <a class="text-link" href="./togu/">See product details</a>
+            <a class="text-link" href="./togu/index.html">See product details</a>
           </article>
           <article class="product-card">
             <span class="pill pill-muted">Coming soon</span>
             <h3>AI companion experience</h3>
             <p>A conversational product in active development.</p>
-            <a class="text-link" href="./companion/">Preview what’s coming</a>
+            <a class="text-link" href="./companion/index.html">Preview what’s coming</a>
           </article>
         </div>
       </section>
@@ -86,8 +86,8 @@ export const pages = [
           Each app solves one common image task without the overhead of a large editor.
         </p>
         <div class="hero-actions">
-          <a class="button button-primary" href="./image-resizer/">View Image Resizer</a>
-          <a class="button button-secondary" href="../support/">Get support</a>
+          <a class="button button-primary" href="./image-resizer/index.html">View Image Resizer</a>
+          <a class="button button-secondary" href="../support/index.html">Get support</a>
         </div>
       </section>
 
@@ -118,7 +118,7 @@ export const pages = [
             <span class="pill">Available now</span>
             <h3>togu | Image Resizer</h3>
             <p>Resize images quickly for uploads, listings, forms, and sharing.</p>
-            <a class="text-link" href="./image-resizer/">Open the product page</a>
+            <a class="text-link" href="./image-resizer/index.html">Open the product page</a>
           </article>
           <article class="product-card">
             <span class="pill pill-muted">Suite approach</span>
@@ -148,8 +148,8 @@ export const pages = [
           Resize images quickly for the web, forms, listings, and daily sharing.
         </p>
         <div class="hero-actions">
-          <a class="button button-primary" href="../../support/">Get support</a>
-          <a class="button button-secondary" href="../">Back to the togu suite</a>
+          <a class="button button-primary" href="../../support/index.html">Get support</a>
+          <a class="button button-secondary" href="../index.html">Back to the togu suite</a>
         </div>
       </section>
 
@@ -205,8 +205,8 @@ export const pages = [
           We are building a conversational product focused on practical help and a calm, consistent experience.
         </p>
         <div class="hero-actions">
-          <a class="button button-primary" href="../support/">Ask about the roadmap</a>
-          <a class="button button-secondary" href="../">See current products</a>
+          <a class="button button-primary" href="../support/index.html">Ask about the roadmap</a>
+          <a class="button button-secondary" href="../index.html">See current products</a>
         </div>
       </section>
 
@@ -249,7 +249,7 @@ export const pages = [
         </p>
         <div class="hero-actions">
           <a class="button button-primary" href="${supportMailto}">Email support</a>
-          <a class="button button-secondary" href="../">Return home</a>
+          <a class="button button-secondary" href="../index.html">Return home</a>
         </div>
       </section>
 
@@ -280,8 +280,8 @@ export const pages = [
           These pages are available as permanent public routes for product compliance and support use.
         </p>
         <ul class="feature-list">
-          <li><a href="../legal/privacy/">Privacy Policy</a></li>
-          <li><a href="../legal/terms/">Terms &amp; Conditions</a></li>
+          <li><a href="../legal/privacy/index.html">Privacy Policy</a></li>
+          <li><a href="../legal/terms/index.html">Terms &amp; Conditions</a></li>
         </ul>
       </section>
     `
@@ -302,7 +302,7 @@ export const pages = [
         </p>
         <div class="hero-actions">
           <a class="button button-primary" href="mailto:${company.supportEmail}">Contact support</a>
-          <a class="button button-secondary" href="../../support/">Back to support</a>
+          <a class="button button-secondary" href="../../support/index.html">Back to support</a>
         </div>
       </section>
 
@@ -358,7 +358,7 @@ export const pages = [
         </p>
         <div class="hero-actions">
           <a class="button button-primary" href="mailto:${company.supportEmail}">Contact support</a>
-          <a class="button button-secondary" href="../../support/">Back to support</a>
+          <a class="button button-secondary" href="../../support/index.html">Back to support</a>
         </div>
       </section>
 

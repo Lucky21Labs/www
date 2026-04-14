@@ -6,8 +6,8 @@ export const company = {
 };
 
 export const navigation = [
-  { href: "/", label: "Home", key: "home" },
-  { href: "/togu/", label: "togu", key: "togu" },
-  { href: "/companion/", label: "AI Companion", key: "companion" },
-  { href: "/support/", label: "Support", key: "support" }
+  { href: "/index.html", label: "Home", key: "home" },
+  { href: "/togu/index.html", label: "togu", key: "togu" },
+  { href: "/companion/index.html", label: "AI Companion", key: "companion" },
+  { href: "/support/index.html", label: "Support", key: "support" }
 ];
